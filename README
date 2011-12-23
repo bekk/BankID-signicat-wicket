@@ -1,0 +1,9 @@
+Eksempelimplementasjon av Signicats BANKID.
+
+- Laget i Wicket
+- mvn jetty:run for å kjøre
+- Selve lyttingen på signerte dokumenter er IKKE implementert, men faket ved at en link blir disablet når den er trykt på
+- Info om test-brukere (fnr, engangspassord og passord ligger i kildekoden)
+
+
+Spørsmål kan stilles til kjell.gunnar.midtlyng ætt BEKK.no
