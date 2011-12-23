@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"
+	xml:lang="no" lang="no">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div wicket:id="bankid">
+	<table class="documents">
+		<thead>
+			<tr>
+				<th class="document-name">Dokument</th>
+				<th class="main-applicant">Person1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr wicket:id="dokumenter">
+				<td class="document-name" wicket:id="navn">dokumentnavn</td>
+				<td wicket:id="hovedsignator">
+					<a wicket:id="link"><span>Les og signer dokumentet</span> </a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+	background-color: #0C0703;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.69em;
+	color: #261C02;
+}
+
+th {
+	color: #76ADB2;
+	font-size: 16px;
+	border-bottom: 1px dashed #887E6E;
+}
+tr, a {
+	color: #B0A696;
+	font-size: 14px;
+}
